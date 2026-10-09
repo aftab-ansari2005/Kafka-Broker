@@ -1,5 +1,5 @@
 # Local learning notes and backup docs.
-/docs
+docs/
 plan.md
 planinstruction.md
 AGENTS.md
@@ -22,6 +22,18 @@ CTestTestfile.cmake
 *.dll
 *.so
 *.dylib
+broker
+test_record
+test_topic_log
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Storage and logs (Stage 3+)
+data/
+*.log
 
 # IDE files
 .vscode/
@@ -33,5 +45,3 @@ CTestTestfile.cmake
 # OS clutter
 .DS_Store
 Thumbs.db
-
-broker
